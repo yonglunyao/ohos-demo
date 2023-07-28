@@ -11,7 +11,7 @@ struct Index {
         Text(this.message)
           .fontSize(50)
           .fontWeight(FontWeight.Bold).onClick(() => {
-          this.message = new Test.TestDemo().sayHello();
+          this.message = new Test.TestDemo().sayHello() + new Test.TestDemo1().sayHello();
         })
       }
       .width('100%')

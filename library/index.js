@@ -1,2 +1,1 @@
-export { Test } from './src/main/ets/module/TestDemo';
-
+export { Test } from './src/main/ets/index';

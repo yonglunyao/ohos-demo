@@ -1,8 +1,5 @@
-export namespace Test {
-  export class TestDemo {
-    sayHello(): string {
-      return "hello";
-    }
+export class TestDemo {
+  sayHello(): string {
+    return "hello";
   }
 }
-
