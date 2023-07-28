@@ -1,11 +1,9 @@
-declare namespace Test {
-  class TestDemo {
+export namespace Test {
+  export class TestDemo {
     sayHello(): string;
   }
 
-  class TestDemo1 {
+  export class TestDemo1 {
     sayHello(): string;
   }
 }
-
-export { Test };
